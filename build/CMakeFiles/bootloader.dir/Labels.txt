@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/hnt/code_test/my_bmi160_project/build/CMakeFiles/bootloader
+/home/hnt/code_test/my_bmi160_project/build/CMakeFiles/bootloader.rule
+/home/hnt/code_test/my_bmi160_project/build/CMakeFiles/bootloader-complete.rule
+/home/hnt/code_test/my_bmi160_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/hnt/code_test/my_bmi160_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/hnt/code_test/my_bmi160_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/hnt/code_test/my_bmi160_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/hnt/code_test/my_bmi160_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/hnt/code_test/my_bmi160_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/hnt/code_test/my_bmi160_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
