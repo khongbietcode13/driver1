@@ -1,0 +1,1355 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "esp-idf/cxx/libcxx.a"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"idf_component_register",
+			"set_property",
+			"__component_set_dependencies",
+			"__component_set_all_dependencies",
+			"target_link_libraries",
+			"add_compile_options",
+			"add_cxx_compile_options",
+			"add_compile_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"/home/hnt/esp/esp-idf/tools/cmake/component.cmake",
+			"/home/hnt/esp/esp-idf/components/cxx/CMakeLists.txt",
+			"/home/hnt/esp/esp-idf/tools/cmake/utilities.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 479,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 513,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 354,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 339,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 339,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 339,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 339,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 339,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 339,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 339,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 339,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 339,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 339,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 339,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 357,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 336,
+				"parent" : 16
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 73,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 76,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 340,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 340,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 340,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 340,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 340,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 340,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 340,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 340,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 340,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 340,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 340,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 16
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 79,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 464,
+				"parent" : 1
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 467,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 270,
+				"parent" : 65
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 465,
+				"parent" : 1
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 463,
+				"parent" : 1
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"compileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "__idf_newlib::@1dbc38583ffafd67f967"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_freertos::@7334568587001871092c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_esp_hw_support::@ce4791f5a7554c569ddb"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_heap::@a3bf99b7c47be461ad9f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_log::@d5e1aa0ef4e3c98c8a70"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_soc::@824f1541829f13857909"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_hal::@41c1a00f56cd1e9ede18"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_esp_rom::@c269e361cd87ad81e927"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_esp_common::@5ba0aac035ae9b4e20a4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_esp_system::@874df54e61e20112dfd4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_xtensa::@1daaaad7abe597e030f9"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "__idf_newlib::@1dbc38583ffafd67f967"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "__idf_freertos::@7334568587001871092c"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "__idf_esp_hw_support::@ce4791f5a7554c569ddb"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "__idf_heap::@a3bf99b7c47be461ad9f"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "__idf_log::@d5e1aa0ef4e3c98c8a70"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "__idf_soc::@824f1541829f13857909"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "__idf_hal::@41c1a00f56cd1e9ede18"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "__idf_esp_rom::@c269e361cd87ad81e927"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "__idf_esp_common::@5ba0aac035ae9b4e20a4"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "__idf_esp_system::@874df54e61e20112dfd4"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "__idf_xtensa::@1daaaad7abe597e030f9"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "__idf_pthread::@52b2aa0be8fa4ca9e52e"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "stdcpp_deps::@fc68b7334ac9a9392d41"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "libgcc_cxx::@fc68b7334ac9a9392d41"
+		}
+	],
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mlongcalls -Wno-frame-address  -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 64,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 64,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 64,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 64,
+					"fragment" : "-Werror=all"
+				},
+				{
+					"backtrace" : 64,
+					"fragment" : "-Wno-error=unused-function"
+				},
+				{
+					"backtrace" : 64,
+					"fragment" : "-Wno-error=unused-variable"
+				},
+				{
+					"backtrace" : 64,
+					"fragment" : "-Wno-error=unused-but-set-variable"
+				},
+				{
+					"backtrace" : 64,
+					"fragment" : "-Wno-error=deprecated-declarations"
+				},
+				{
+					"backtrace" : 64,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 64,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 64,
+					"fragment" : "-Wno-sign-compare"
+				},
+				{
+					"backtrace" : 64,
+					"fragment" : "-Wno-enum-conversion"
+				},
+				{
+					"backtrace" : 64,
+					"fragment" : "-gdwarf-4"
+				},
+				{
+					"backtrace" : 64,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 64,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 64,
+					"fragment" : "-fno-shrink-wrap"
+				},
+				{
+					"backtrace" : 64,
+					"fragment" : "-fmacro-prefix-map=/home/hnt/code_test/my_bmi160_project=."
+				},
+				{
+					"backtrace" : 64,
+					"fragment" : "-fmacro-prefix-map=/home/hnt/esp/esp-idf=/IDF"
+				},
+				{
+					"backtrace" : 64,
+					"fragment" : "-fstrict-volatile-bitfields"
+				},
+				{
+					"backtrace" : 64,
+					"fragment" : "-fno-jump-tables"
+				},
+				{
+					"backtrace" : 64,
+					"fragment" : "-fno-tree-switch-conversion"
+				},
+				{
+					"backtrace" : 66,
+					"fragment" : "-std=gnu++2b"
+				},
+				{
+					"backtrace" : 66,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 66,
+					"fragment" : "-fno-rtti"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 67,
+					"define" : "ESP_PLATFORM"
+				},
+				{
+					"backtrace" : 67,
+					"define" : "IDF_VER=\"v5.2\""
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ"
+				},
+				{
+					"backtrace" : 67,
+					"define" : "_GLIBCXX_HAVE_POSIX_SEMAPHORE"
+				},
+				{
+					"backtrace" : 67,
+					"define" : "_GLIBCXX_USE_POSIX_SEMAPHORE"
+				},
+				{
+					"backtrace" : 67,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 67,
+					"define" : "_POSIX_READER_WRITER_LOCKS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 68,
+					"path" : "/home/hnt/code_test/my_bmi160_project/build/config"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/newlib/platform_include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/freertos/config/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/freertos/config/include/freertos"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/freertos/config/xtensa/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/freertos/esp_additions/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/esp_hw_support/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/esp_hw_support/include/soc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/esp_hw_support/include/soc/esp32"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/esp_hw_support/port/esp32/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/heap/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/log/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/soc/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/soc/esp32"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/soc/esp32/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/hal/platform_port/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/hal/esp32/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/hal/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/esp_rom/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/esp_rom/include/esp32"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/esp_rom/esp32"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/esp_common/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/esp_system/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/esp_system/port/soc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/esp_system/port/include/private"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/xtensa/esp32/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/xtensa/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/xtensa/deprecated_include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/lwip/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/lwip/include/apps"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/lwip/include/apps/sntp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/lwip/lwip/src/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/lwip/port/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/lwip/port/freertos/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/lwip/port/esp32xx/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/lwip/port/esp32xx/include/arch"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hnt/esp/esp-idf/components/lwip/port/esp32xx/include/sys"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/hnt/esp/esp-idf/components/pthread/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "__idf_esp_common::@5ba0aac035ae9b4e20a4"
+		}
+	],
+	"id" : "__idf_cxx::@fc68b7334ac9a9392d41",
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "__idf_newlib::@1dbc38583ffafd67f967"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_freertos::@7334568587001871092c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_esp_hw_support::@ce4791f5a7554c569ddb"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_heap::@a3bf99b7c47be461ad9f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_log::@d5e1aa0ef4e3c98c8a70"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_soc::@824f1541829f13857909"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_hal::@41c1a00f56cd1e9ede18"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_esp_rom::@c269e361cd87ad81e927"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_esp_common::@5ba0aac035ae9b4e20a4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_esp_system::@874df54e61e20112dfd4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_xtensa::@1daaaad7abe597e030f9"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "__idf_newlib::@1dbc38583ffafd67f967"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "__idf_freertos::@7334568587001871092c"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "__idf_esp_hw_support::@ce4791f5a7554c569ddb"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "__idf_heap::@a3bf99b7c47be461ad9f"
+		},
+		{
+			"backtrace" : 25,
+			"id" : "__idf_log::@d5e1aa0ef4e3c98c8a70"
+		},
+		{
+			"backtrace" : 26,
+			"id" : "__idf_soc::@824f1541829f13857909"
+		},
+		{
+			"backtrace" : 27,
+			"id" : "__idf_hal::@41c1a00f56cd1e9ede18"
+		},
+		{
+			"backtrace" : 28,
+			"id" : "__idf_esp_rom::@c269e361cd87ad81e927"
+		},
+		{
+			"backtrace" : 29,
+			"id" : "__idf_esp_common::@5ba0aac035ae9b4e20a4"
+		},
+		{
+			"backtrace" : 30,
+			"id" : "__idf_esp_system::@874df54e61e20112dfd4"
+		},
+		{
+			"backtrace" : 31,
+			"id" : "__idf_xtensa::@1daaaad7abe597e030f9"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "stdcpp_deps::@fc68b7334ac9a9392d41"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "libgcc_cxx::@fc68b7334ac9a9392d41"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "__idf_newlib::@1dbc38583ffafd67f967"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_freertos::@7334568587001871092c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_esp_hw_support::@ce4791f5a7554c569ddb"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_heap::@a3bf99b7c47be461ad9f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_log::@d5e1aa0ef4e3c98c8a70"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_soc::@824f1541829f13857909"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_hal::@41c1a00f56cd1e9ede18"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_esp_rom::@c269e361cd87ad81e927"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_esp_common::@5ba0aac035ae9b4e20a4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_esp_system::@874df54e61e20112dfd4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_xtensa::@1daaaad7abe597e030f9"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "__idf_newlib::@1dbc38583ffafd67f967"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "__idf_freertos::@7334568587001871092c"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "__idf_esp_hw_support::@ce4791f5a7554c569ddb"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "__idf_heap::@a3bf99b7c47be461ad9f"
+		},
+		{
+			"backtrace" : 25,
+			"id" : "__idf_log::@d5e1aa0ef4e3c98c8a70"
+		},
+		{
+			"backtrace" : 26,
+			"id" : "__idf_soc::@824f1541829f13857909"
+		},
+		{
+			"backtrace" : 27,
+			"id" : "__idf_hal::@41c1a00f56cd1e9ede18"
+		},
+		{
+			"backtrace" : 28,
+			"id" : "__idf_esp_rom::@c269e361cd87ad81e927"
+		},
+		{
+			"backtrace" : 29,
+			"id" : "__idf_esp_common::@5ba0aac035ae9b4e20a4"
+		},
+		{
+			"backtrace" : 30,
+			"id" : "__idf_esp_system::@874df54e61e20112dfd4"
+		},
+		{
+			"backtrace" : 31,
+			"id" : "__idf_xtensa::@1daaaad7abe597e030f9"
+		},
+		{
+			"backtrace" : 32,
+			"id" : "__idf_pthread::@52b2aa0be8fa4ca9e52e"
+		},
+		{
+			"backtrace" : 33,
+			"fragment" : "-Wl,--wrap=_Unwind_SetEnableExceptionFdeSorting"
+		},
+		{
+			"backtrace" : 34,
+			"fragment" : "-Wl,--wrap=__register_frame_info_bases"
+		},
+		{
+			"backtrace" : 35,
+			"fragment" : "-Wl,--wrap=__register_frame_info"
+		},
+		{
+			"backtrace" : 36,
+			"fragment" : "-Wl,--wrap=__register_frame"
+		},
+		{
+			"backtrace" : 37,
+			"fragment" : "-Wl,--wrap=__register_frame_info_table_bases"
+		},
+		{
+			"backtrace" : 38,
+			"fragment" : "-Wl,--wrap=__register_frame_info_table"
+		},
+		{
+			"backtrace" : 39,
+			"fragment" : "-Wl,--wrap=__register_frame_table"
+		},
+		{
+			"backtrace" : 40,
+			"fragment" : "-Wl,--wrap=__deregister_frame_info_bases"
+		},
+		{
+			"backtrace" : 41,
+			"fragment" : "-Wl,--wrap=__deregister_frame_info"
+		},
+		{
+			"backtrace" : 42,
+			"fragment" : "-Wl,--wrap=_Unwind_Find_FDE"
+		},
+		{
+			"backtrace" : 43,
+			"fragment" : "-Wl,--wrap=_Unwind_GetGR"
+		},
+		{
+			"backtrace" : 44,
+			"fragment" : "-Wl,--wrap=_Unwind_GetCFA"
+		},
+		{
+			"backtrace" : 45,
+			"fragment" : "-Wl,--wrap=_Unwind_GetIP"
+		},
+		{
+			"backtrace" : 46,
+			"fragment" : "-Wl,--wrap=_Unwind_GetIPInfo"
+		},
+		{
+			"backtrace" : 47,
+			"fragment" : "-Wl,--wrap=_Unwind_GetRegionStart"
+		},
+		{
+			"backtrace" : 48,
+			"fragment" : "-Wl,--wrap=_Unwind_GetDataRelBase"
+		},
+		{
+			"backtrace" : 49,
+			"fragment" : "-Wl,--wrap=_Unwind_GetTextRelBase"
+		},
+		{
+			"backtrace" : 50,
+			"fragment" : "-Wl,--wrap=_Unwind_SetIP"
+		},
+		{
+			"backtrace" : 51,
+			"fragment" : "-Wl,--wrap=_Unwind_SetGR"
+		},
+		{
+			"backtrace" : 52,
+			"fragment" : "-Wl,--wrap=_Unwind_GetLanguageSpecificData"
+		},
+		{
+			"backtrace" : 53,
+			"fragment" : "-Wl,--wrap=_Unwind_FindEnclosingFunction"
+		},
+		{
+			"backtrace" : 54,
+			"fragment" : "-Wl,--wrap=_Unwind_Resume"
+		},
+		{
+			"backtrace" : 55,
+			"fragment" : "-Wl,--wrap=_Unwind_RaiseException"
+		},
+		{
+			"backtrace" : 56,
+			"fragment" : "-Wl,--wrap=_Unwind_DeleteException"
+		},
+		{
+			"backtrace" : 57,
+			"fragment" : "-Wl,--wrap=_Unwind_ForcedUnwind"
+		},
+		{
+			"backtrace" : 58,
+			"fragment" : "-Wl,--wrap=_Unwind_Resume_or_Rethrow"
+		},
+		{
+			"backtrace" : 59,
+			"fragment" : "-Wl,--wrap=_Unwind_Backtrace"
+		},
+		{
+			"backtrace" : 60,
+			"fragment" : "-Wl,--wrap=__cxa_call_unexpected"
+		},
+		{
+			"backtrace" : 61,
+			"fragment" : "-Wl,--wrap=__gxx_personality_v0"
+		},
+		{
+			"backtrace" : 18,
+			"fragment" : "stdc++"
+		},
+		{
+			"backtrace" : 18,
+			"fragment" : "gcc"
+		},
+		{
+			"backtrace" : 62,
+			"fragment" : "-u __cxa_guard_dummy"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "stdcpp_deps::@fc68b7334ac9a9392d41"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "libgcc_cxx::@fc68b7334ac9a9392d41"
+		},
+		{
+			"backtrace" : 63,
+			"fragment" : "-u __cxx_fatal_exception"
+		}
+	],
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "__idf_newlib::@1dbc38583ffafd67f967"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_freertos::@7334568587001871092c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_esp_hw_support::@ce4791f5a7554c569ddb"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_heap::@a3bf99b7c47be461ad9f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_log::@d5e1aa0ef4e3c98c8a70"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_soc::@824f1541829f13857909"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_hal::@41c1a00f56cd1e9ede18"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_esp_rom::@c269e361cd87ad81e927"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_esp_common::@5ba0aac035ae9b4e20a4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_esp_system::@874df54e61e20112dfd4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "__idf_xtensa::@1daaaad7abe597e030f9"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "__idf_newlib::@1dbc38583ffafd67f967"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "__idf_freertos::@7334568587001871092c"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "__idf_esp_hw_support::@ce4791f5a7554c569ddb"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "__idf_heap::@a3bf99b7c47be461ad9f"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "__idf_log::@d5e1aa0ef4e3c98c8a70"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "__idf_soc::@824f1541829f13857909"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "__idf_hal::@41c1a00f56cd1e9ede18"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "__idf_esp_rom::@c269e361cd87ad81e927"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "__idf_esp_common::@5ba0aac035ae9b4e20a4"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "__idf_esp_system::@874df54e61e20112dfd4"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "__idf_xtensa::@1daaaad7abe597e030f9"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "__idf_pthread::@52b2aa0be8fa4ca9e52e"
+		},
+		{
+			"backtrace" : 18,
+			"fragment" : "stdc++"
+		},
+		{
+			"backtrace" : 18,
+			"fragment" : "gcc"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "stdcpp_deps::@fc68b7334ac9a9392d41"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "libgcc_cxx::@fc68b7334ac9a9392d41"
+		}
+	],
+	"name" : "__idf_cxx",
+	"nameOnDisk" : "libcxx.a",
+	"paths" : 
+	{
+		"build" : "esp-idf/cxx",
+		"source" : "/home/hnt/esp/esp-idf/components/cxx"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/hnt/esp/esp-idf/components/cxx/cxx_exception_stubs.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/hnt/esp/esp-idf/components/cxx/cxx_guards.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

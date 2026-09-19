@@ -1,0 +1,59 @@
+{
+	"abstract" : true,
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"/home/hnt/esp/esp-idf/components/cxx/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "libgcc_cxx::@fc68b7334ac9a9392d41",
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"fragment" : "gcc"
+		},
+		{
+			"backtrace" : 2,
+			"fragment" : "/home/hnt/code_test/my_bmi160_project/build/esp-idf/cxx/libcxx.a"
+		}
+	],
+	"name" : "libgcc_cxx",
+	"paths" : 
+	{
+		"build" : "esp-idf/cxx",
+		"source" : "/home/hnt/esp/esp-idf/components/cxx"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

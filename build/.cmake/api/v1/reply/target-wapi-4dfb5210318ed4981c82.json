@@ -1,0 +1,133 @@
+{
+	"abstract" : true,
+	"artifacts" : 
+	[
+		{
+			"path" : "/home/hnt/esp/esp-idf/components/esp_wifi/lib/esp32/libwapi.a"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_prebuilt_library",
+			"set_property"
+		],
+		"files" : 
+		[
+			"/home/hnt/esp/esp-idf/tools/cmake/utilities.cmake",
+			"/home/hnt/esp/esp-idf/components/esp_wifi/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 65,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 306,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 312,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 69,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "wapi::@c33f1523799863800685",
+	"imported" : true,
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "__idf_esp_wifi::@c33f1523799863800685"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "core::@c33f1523799863800685"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "espnow::@c33f1523799863800685"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "mesh::@c33f1523799863800685"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "net80211::@c33f1523799863800685"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "pp::@c33f1523799863800685"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "smartconfig::@c33f1523799863800685"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "__idf_esp_wifi::@c33f1523799863800685"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "core::@c33f1523799863800685"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "espnow::@c33f1523799863800685"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "mesh::@c33f1523799863800685"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "net80211::@c33f1523799863800685"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "pp::@c33f1523799863800685"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "smartconfig::@c33f1523799863800685"
+		}
+	],
+	"local" : true,
+	"name" : "wapi",
+	"nameOnDisk" : "libwapi.a",
+	"paths" : 
+	{
+		"build" : "esp-idf/esp_wifi",
+		"source" : "/home/hnt/esp/esp-idf/components/esp_wifi"
+	},
+	"sources" : [],
+	"type" : "STATIC_LIBRARY"
+}

@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "my_bmi160_project",
-    "project_version":    "1",
+    "project_version":    "2034d77-dirty",
     "project_path":       "/home/hnt/code_test/my_bmi160_project",
     "idf_path":           "/home/hnt/esp/esp-idf",
     "build_dir":          "/home/hnt/code_test/my_bmi160_project/build",
@@ -805,7 +805,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/hnt/code_test/my_bmi160_project/build/esp-idf/main/libmain.a",
-            "sources": [ "/home/hnt/code_test/my_bmi160_project/main/my_bmi160_project.c", "/home/hnt/code_test/my_bmi160_project/main/bmi160.c" ],
+            "sources": [ "/home/hnt/code_test/my_bmi160_project/main/audio_frontend.c", "/home/hnt/code_test/my_bmi160_project/main/my_bmi160_project.c", "/home/hnt/code_test/my_bmi160_project/main/bmi160.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {

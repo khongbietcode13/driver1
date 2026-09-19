@@ -1,0 +1,63 @@
+{
+	"abstract" : true,
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"/home/hnt/esp/esp-idf/components/cxx/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "stdcpp_deps::@fc68b7334ac9a9392d41",
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"fragment" : "stdc++"
+		},
+		{
+			"backtrace" : 2,
+			"fragment" : "/home/hnt/code_test/my_bmi160_project/build/esp-idf/pthread/libpthread.a"
+		},
+		{
+			"backtrace" : 2,
+			"fragment" : "/home/hnt/code_test/my_bmi160_project/build/esp-idf/newlib/libnewlib.a"
+		}
+	],
+	"name" : "stdcpp_deps",
+	"paths" : 
+	{
+		"build" : "esp-idf/cxx",
+		"source" : "/home/hnt/esp/esp-idf/components/cxx"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

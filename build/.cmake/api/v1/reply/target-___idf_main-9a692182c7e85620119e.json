@@ -1,0 +1,88 @@
+{
+	"abstract" : true,
+	"artifacts" : 
+	[
+		{
+			"path" : "___idf_main-NOTFOUND"
+		}
+	],
+	"backtrace" : 6,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"__component_add",
+			"idf_build_component",
+			"__project_component_dir",
+			"__project_init",
+			"project"
+		],
+		"files" : 
+		[
+			"/home/hnt/esp/esp-idf/tools/cmake/component.cmake",
+			"/home/hnt/esp/esp-idf/tools/cmake/build.cmake",
+			"/home/hnt/esp/esp-idf/tools/cmake/project.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 491,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 400,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 369,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 258,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 168,
+				"parent" : 5
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "___idf_main::@6890427a1f51a3e7e1df",
+	"imported" : true,
+	"local" : true,
+	"name" : "___idf_main",
+	"nameOnDisk" : "___idf_main-NOTFOUND",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "STATIC_LIBRARY"
+}

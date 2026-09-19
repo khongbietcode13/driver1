@@ -1,0 +1,100 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_deprecated_target_alias",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"/home/hnt/esp/esp-idf/tools/cmake/utilities.cmake",
+			"/home/hnt/esp/esp-idf/components/efuse/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 76,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 359,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 364,
+				"parent" : 1
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "show-efuse-table::@2da764c922f8b73e9c75"
+		}
+	],
+	"id" : "show_efuse_table::@2da764c922f8b73e9c75",
+	"name" : "show_efuse_table",
+	"orderDependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "show-efuse-table::@2da764c922f8b73e9c75"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "esp-idf/efuse",
+		"source" : "/home/hnt/esp/esp-idf/components/efuse"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/esp-idf/efuse/CMakeFiles/show_efuse_table",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/esp-idf/efuse/CMakeFiles/show_efuse_table.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
